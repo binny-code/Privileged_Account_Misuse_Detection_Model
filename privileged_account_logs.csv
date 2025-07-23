@@ -1,0 +1,301 @@
+timestamp,user_id,resource,action,result,command_executed,access_level
+2025-07-22 01:19:00,user10,db_admin_panel,logout,0,mysql restart,5
+2025-07-25 20:44:00,user06,user_mgmt_portal,file_delete,1,cat /etc/passwd,2
+2025-07-21 13:47:00,user10,db_admin_panel,login,0,chmod 777,1
+2025-07-21 01:52:00,user04,db_admin_panel,file_delete,1,chmod 777,2
+2025-07-23 18:31:00,user02,db_admin_panel,user_remove,0,rm -rf /tmp/*,2
+2025-07-25 07:11:00,user02,db_admin_panel,user_remove,1,adduser temp,3
+2025-07-25 10:29:00,user05,vpn_gateway,file_delete,1,rm -rf /tmp/*,5
+2025-07-21 01:30:00,user08,db_admin_panel,logout,0,mysql restart,2
+2025-07-22 23:18:00,user08,db_admin_panel,user_remove,1,sudo reboot,5
+2025-07-25 21:54:00,user04,user_mgmt_portal,file_upload,1,cat /etc/passwd,5
+2025-07-23 04:54:00,user06,firewall_console,user_add,0,mysql restart,1
+2025-07-24 23:51:00,user05,user_mgmt_portal,file_delete,1,iptables -F,1
+2025-07-27 11:09:00,user03,user_mgmt_portal,user_add,1,adduser temp,3
+2025-07-23 10:07:00,user03,user_mgmt_portal,user_add,1,iptables -F,4
+2025-07-24 12:08:00,user03,user_mgmt_portal,login,1,sudo reboot,2
+2025-07-21 05:32:00,user06,firewall_console,login,1,iptables -F,3
+2025-07-22 14:31:00,user04,user_mgmt_portal,file_upload,0,mysql restart,3
+2025-07-24 14:15:00,user07,user_mgmt_portal,config_change,1,chmod 777,2
+2025-07-22 07:52:00,user01,vpn_gateway,file_delete,0,rm -rf /tmp/*,1
+2025-07-24 12:39:00,user06,firewall_console,user_add,1,mysql restart,3
+2025-07-26 04:00:00,user09,vpn_gateway,file_upload,1,mysql restart,4
+2025-07-24 14:35:00,user07,db_admin_panel,file_delete,1,adduser temp,3
+2025-07-27 10:55:00,user02,vpn_gateway,file_upload,0,adduser temp,4
+2025-07-22 15:20:00,user05,db_admin_panel,user_add,0,cat /etc/passwd,5
+2025-07-22 15:05:00,user03,firewall_console,config_change,0,adduser temp,1
+2025-07-23 19:27:00,user06,user_mgmt_portal,logout,0,mysql restart,2
+2025-07-21 15:40:00,user09,user_mgmt_portal,user_add,1,sudo reboot,5
+2025-07-21 23:18:00,user08,firewall_console,logout,0,sudo reboot,4
+2025-07-27 20:44:00,user04,db_admin_panel,login,0,cat /etc/passwd,4
+2025-07-21 20:17:00,user05,firewall_console,file_delete,1,mysql restart,3
+2025-07-21 01:50:00,user09,db_admin_panel,file_delete,0,mysql restart,4
+2025-07-26 12:22:00,user07,user_mgmt_portal,login,1,sudo reboot,3
+2025-07-27 22:18:00,user04,db_admin_panel,file_delete,1,adduser temp,5
+2025-07-23 12:15:00,user02,db_admin_panel,login,1,sudo reboot,1
+2025-07-27 07:57:00,user02,firewall_console,file_delete,0,sudo reboot,1
+2025-07-22 14:01:00,user05,vpn_gateway,login,0,rm -rf /tmp/*,2
+2025-07-24 06:44:00,user01,db_admin_panel,file_delete,0,chmod 777,1
+2025-07-27 06:03:00,user03,firewall_console,user_add,1,mysql restart,1
+2025-07-21 07:12:00,user05,firewall_console,file_upload,0,mysql restart,1
+2025-07-26 03:04:00,user10,db_admin_panel,config_change,1,adduser temp,5
+2025-07-23 18:35:00,user08,vpn_gateway,user_add,0,mysql restart,5
+2025-07-22 01:11:00,user08,vpn_gateway,file_upload,0,adduser temp,1
+2025-07-21 20:39:00,user09,firewall_console,file_upload,1,iptables -F,1
+2025-07-27 16:11:00,user07,db_admin_panel,user_remove,0,sudo reboot,2
+2025-07-25 23:38:00,user10,user_mgmt_portal,config_change,1,iptables -F,3
+2025-07-21 23:14:00,user06,vpn_gateway,file_upload,1,chmod 777,3
+2025-07-24 04:50:00,user04,firewall_console,logout,1,iptables -F,1
+2025-07-23 19:30:00,user10,firewall_console,file_upload,0,rm -rf /tmp/*,2
+2025-07-26 08:37:00,user08,db_admin_panel,file_delete,1,adduser temp,4
+2025-07-21 10:26:00,user10,vpn_gateway,user_remove,0,sudo reboot,2
+2025-07-24 21:58:00,user10,db_admin_panel,login,0,adduser temp,5
+2025-07-26 05:56:00,user09,user_mgmt_portal,file_delete,1,sudo reboot,3
+2025-07-27 09:59:00,user06,vpn_gateway,file_upload,1,chmod 777,5
+2025-07-22 12:09:00,user05,firewall_console,config_change,1,mysql restart,5
+2025-07-26 07:18:00,user05,firewall_console,logout,0,sudo reboot,2
+2025-07-25 05:02:00,user01,firewall_console,login,1,iptables -F,3
+2025-07-22 15:58:00,user02,db_admin_panel,login,1,mysql restart,4
+2025-07-21 08:40:00,user09,firewall_console,file_delete,1,chmod 777,4
+2025-07-24 01:14:00,user04,user_mgmt_portal,login,0,chmod 777,4
+2025-07-24 17:37:00,user01,vpn_gateway,file_upload,1,rm -rf /tmp/*,4
+2025-07-23 16:52:00,user04,firewall_console,user_add,0,chmod 777,5
+2025-07-21 11:30:00,user09,user_mgmt_portal,user_add,1,rm -rf /tmp/*,2
+2025-07-25 16:00:00,user10,vpn_gateway,file_delete,1,adduser temp,3
+2025-07-21 19:16:00,user08,db_admin_panel,logout,0,adduser temp,2
+2025-07-27 15:16:00,user04,vpn_gateway,file_upload,1,adduser temp,5
+2025-07-24 02:21:00,user02,user_mgmt_portal,file_upload,1,sudo reboot,3
+2025-07-24 16:52:00,user05,vpn_gateway,config_change,0,iptables -F,2
+2025-07-22 23:52:00,user10,db_admin_panel,config_change,1,iptables -F,3
+2025-07-27 05:20:00,user07,user_mgmt_portal,user_remove,1,sudo reboot,2
+2025-07-22 23:12:00,user04,user_mgmt_portal,user_remove,0,rm -rf /tmp/*,3
+2025-07-23 01:10:00,user08,vpn_gateway,config_change,1,chmod 777,4
+2025-07-21 03:42:00,user01,vpn_gateway,user_remove,0,sudo reboot,5
+2025-07-24 11:16:00,user01,vpn_gateway,login,0,cat /etc/passwd,3
+2025-07-27 18:29:00,user08,vpn_gateway,logout,1,sudo reboot,4
+2025-07-26 06:45:00,user03,db_admin_panel,user_add,1,mysql restart,3
+2025-07-21 02:02:00,user10,user_mgmt_portal,logout,0,rm -rf /tmp/*,2
+2025-07-22 20:28:00,user10,db_admin_panel,file_upload,0,iptables -F,5
+2025-07-22 15:14:00,user02,db_admin_panel,logout,0,mysql restart,3
+2025-07-26 18:49:00,user08,db_admin_panel,login,1,adduser temp,5
+2025-07-22 14:28:00,user03,firewall_console,file_delete,1,cat /etc/passwd,4
+2025-07-24 18:23:00,user06,vpn_gateway,user_add,1,sudo reboot,3
+2025-07-27 17:49:00,user04,vpn_gateway,config_change,0,sudo reboot,4
+2025-07-21 10:53:00,user02,db_admin_panel,file_delete,1,adduser temp,4
+2025-07-27 15:48:00,user06,user_mgmt_portal,user_add,1,adduser temp,1
+2025-07-26 17:22:00,user07,vpn_gateway,config_change,1,mysql restart,5
+2025-07-23 02:20:00,user10,user_mgmt_portal,config_change,1,iptables -F,2
+2025-07-26 08:34:00,user03,user_mgmt_portal,file_delete,1,iptables -F,5
+2025-07-24 03:08:00,user01,user_mgmt_portal,file_upload,0,adduser temp,2
+2025-07-22 20:25:00,user05,db_admin_panel,logout,1,adduser temp,4
+2025-07-23 11:31:00,user09,db_admin_panel,file_upload,1,mysql restart,4
+2025-07-25 19:38:00,user10,firewall_console,login,0,sudo reboot,5
+2025-07-24 18:34:00,user05,firewall_console,file_upload,1,adduser temp,5
+2025-07-21 19:29:00,user07,db_admin_panel,config_change,0,adduser temp,3
+2025-07-21 02:50:00,user04,firewall_console,user_remove,1,rm -rf /tmp/*,4
+2025-07-22 01:11:00,user08,user_mgmt_portal,user_add,1,adduser temp,4
+2025-07-22 15:46:00,user06,vpn_gateway,config_change,0,iptables -F,3
+2025-07-22 12:38:00,user09,vpn_gateway,login,1,chmod 777,4
+2025-07-24 21:59:00,user09,firewall_console,logout,1,sudo reboot,1
+2025-07-27 11:51:00,user10,db_admin_panel,file_upload,1,cat /etc/passwd,1
+2025-07-23 20:27:00,user08,user_mgmt_portal,config_change,0,sudo reboot,5
+2025-07-23 05:22:00,user08,vpn_gateway,login,1,mysql restart,2
+2025-07-22 02:03:00,user03,db_admin_panel,logout,0,adduser temp,4
+2025-07-25 14:13:00,user08,user_mgmt_portal,login,0,mysql restart,1
+2025-07-25 11:12:00,user10,vpn_gateway,logout,0,mysql restart,4
+2025-07-24 02:47:00,user08,firewall_console,login,1,mysql restart,1
+2025-07-25 03:33:00,user06,db_admin_panel,file_upload,0,rm -rf /tmp/*,2
+2025-07-23 17:14:00,user01,user_mgmt_portal,user_remove,1,mysql restart,2
+2025-07-27 22:27:00,user02,db_admin_panel,user_remove,0,mysql restart,2
+2025-07-26 01:34:00,user09,firewall_console,login,0,cat /etc/passwd,4
+2025-07-24 02:24:00,user06,firewall_console,user_remove,0,cat /etc/passwd,4
+2025-07-23 15:28:00,user10,user_mgmt_portal,file_delete,0,cat /etc/passwd,1
+2025-07-23 14:54:00,user02,user_mgmt_portal,logout,0,iptables -F,1
+2025-07-22 04:56:00,user08,firewall_console,user_remove,0,chmod 777,5
+2025-07-23 04:00:00,user07,db_admin_panel,file_upload,0,mysql restart,3
+2025-07-26 11:40:00,user01,firewall_console,file_upload,0,sudo reboot,1
+2025-07-27 21:41:00,user06,db_admin_panel,user_remove,1,chmod 777,4
+2025-07-26 19:52:00,user05,db_admin_panel,config_change,0,adduser temp,3
+2025-07-26 00:57:00,user06,firewall_console,file_delete,0,iptables -F,1
+2025-07-22 08:57:00,user09,db_admin_panel,config_change,1,mysql restart,1
+2025-07-27 11:09:00,user07,vpn_gateway,config_change,0,iptables -F,1
+2025-07-21 18:50:00,user06,vpn_gateway,logout,1,iptables -F,5
+2025-07-23 00:49:00,user06,vpn_gateway,user_add,0,adduser temp,5
+2025-07-26 03:06:00,user09,user_mgmt_portal,config_change,1,adduser temp,1
+2025-07-27 07:10:00,user09,firewall_console,file_delete,0,mysql restart,2
+2025-07-27 22:09:00,user09,user_mgmt_portal,login,1,adduser temp,1
+2025-07-27 20:38:00,user05,firewall_console,user_remove,0,chmod 777,3
+2025-07-23 17:12:00,user10,user_mgmt_portal,login,0,chmod 777,4
+2025-07-25 05:00:00,user06,firewall_console,user_add,0,sudo reboot,2
+2025-07-22 15:45:00,user02,firewall_console,file_delete,1,mysql restart,5
+2025-07-23 01:27:00,user03,user_mgmt_portal,user_remove,0,iptables -F,5
+2025-07-21 08:06:00,user09,db_admin_panel,file_upload,0,chmod 777,2
+2025-07-21 13:42:00,user04,db_admin_panel,user_remove,0,mysql restart,2
+2025-07-25 21:26:00,user01,user_mgmt_portal,config_change,1,sudo reboot,2
+2025-07-27 20:16:00,user06,firewall_console,user_remove,0,rm -rf /tmp/*,2
+2025-07-21 17:54:00,user01,db_admin_panel,file_delete,1,iptables -F,4
+2025-07-25 16:36:00,user03,firewall_console,user_remove,1,chmod 777,1
+2025-07-21 22:01:00,user06,vpn_gateway,config_change,1,sudo reboot,2
+2025-07-24 15:13:00,user02,vpn_gateway,file_upload,1,adduser temp,5
+2025-07-21 17:47:00,user05,db_admin_panel,file_upload,0,rm -rf /tmp/*,5
+2025-07-26 16:12:00,user01,firewall_console,login,1,mysql restart,1
+2025-07-22 15:43:00,user05,user_mgmt_portal,user_remove,0,chmod 777,5
+2025-07-24 23:48:00,user07,user_mgmt_portal,user_add,0,rm -rf /tmp/*,3
+2025-07-27 01:00:00,user04,user_mgmt_portal,file_delete,0,iptables -F,1
+2025-07-23 21:01:00,user05,user_mgmt_portal,login,1,adduser temp,4
+2025-07-23 16:14:00,user01,firewall_console,config_change,0,sudo reboot,2
+2025-07-23 12:20:00,user02,db_admin_panel,user_add,1,mysql restart,1
+2025-07-25 23:14:00,user06,db_admin_panel,logout,0,adduser temp,4
+2025-07-23 13:45:00,user10,user_mgmt_portal,logout,1,rm -rf /tmp/*,1
+2025-07-21 19:41:00,user04,db_admin_panel,user_add,1,cat /etc/passwd,4
+2025-07-23 13:44:00,user07,firewall_console,login,1,adduser temp,4
+2025-07-27 19:53:00,user05,vpn_gateway,file_upload,0,rm -rf /tmp/*,2
+2025-07-25 18:23:00,user08,firewall_console,login,1,rm -rf /tmp/*,1
+2025-07-21 10:24:00,user07,db_admin_panel,logout,0,iptables -F,2
+2025-07-24 18:58:00,user06,firewall_console,file_upload,1,adduser temp,3
+2025-07-25 22:23:00,user08,firewall_console,file_delete,1,mysql restart,1
+2025-07-23 21:51:00,user08,vpn_gateway,user_add,1,mysql restart,2
+2025-07-25 07:31:00,user02,user_mgmt_portal,file_delete,1,cat /etc/passwd,3
+2025-07-26 05:20:00,user10,firewall_console,user_remove,1,rm -rf /tmp/*,3
+2025-07-22 21:27:00,user04,db_admin_panel,config_change,0,cat /etc/passwd,5
+2025-07-21 22:17:00,user09,vpn_gateway,user_add,1,mysql restart,2
+2025-07-21 07:08:00,user03,firewall_console,user_remove,0,chmod 777,4
+2025-07-26 21:01:00,user07,db_admin_panel,config_change,0,iptables -F,4
+2025-07-21 22:23:00,user09,user_mgmt_portal,file_upload,0,rm -rf /tmp/*,5
+2025-07-21 14:49:00,user02,user_mgmt_portal,user_add,1,rm -rf /tmp/*,3
+2025-07-27 01:17:00,user06,vpn_gateway,login,1,rm -rf /tmp/*,3
+2025-07-22 13:45:00,user01,db_admin_panel,login,1,cat /etc/passwd,1
+2025-07-22 14:53:00,user03,db_admin_panel,login,0,rm -rf /tmp/*,4
+2025-07-23 11:20:00,user02,db_admin_panel,user_remove,0,mysql restart,1
+2025-07-24 05:45:00,user04,db_admin_panel,user_add,0,iptables -F,3
+2025-07-21 05:21:00,user01,vpn_gateway,user_add,1,adduser temp,1
+2025-07-23 22:15:00,user09,vpn_gateway,logout,0,cat /etc/passwd,3
+2025-07-27 07:17:00,user07,db_admin_panel,user_add,0,adduser temp,1
+2025-07-23 20:25:00,user09,db_admin_panel,user_remove,0,chmod 777,1
+2025-07-26 04:52:00,user01,user_mgmt_portal,config_change,0,mysql restart,4
+2025-07-24 13:50:00,user02,vpn_gateway,config_change,1,rm -rf /tmp/*,5
+2025-07-27 22:33:00,user07,firewall_console,user_remove,0,sudo reboot,4
+2025-07-27 13:36:00,user10,firewall_console,user_add,0,rm -rf /tmp/*,2
+2025-07-22 02:01:00,user04,user_mgmt_portal,file_upload,0,adduser temp,5
+2025-07-22 02:29:00,user08,vpn_gateway,logout,0,adduser temp,3
+2025-07-21 00:50:00,user05,firewall_console,file_upload,1,rm -rf /tmp/*,4
+2025-07-23 20:19:00,user09,db_admin_panel,logout,0,rm -rf /tmp/*,4
+2025-07-22 05:50:00,user03,db_admin_panel,logout,0,adduser temp,5
+2025-07-22 18:04:00,user10,vpn_gateway,file_delete,1,iptables -F,2
+2025-07-23 18:49:00,user02,db_admin_panel,file_delete,0,chmod 777,1
+2025-07-27 00:57:00,user03,vpn_gateway,user_add,1,mysql restart,2
+2025-07-24 08:00:00,user01,vpn_gateway,file_delete,0,adduser temp,4
+2025-07-26 02:17:00,user07,db_admin_panel,user_remove,0,rm -rf /tmp/*,3
+2025-07-27 04:41:00,user05,db_admin_panel,config_change,0,cat /etc/passwd,1
+2025-07-27 16:30:00,user08,vpn_gateway,file_delete,1,adduser temp,5
+2025-07-21 15:11:00,user05,vpn_gateway,logout,0,adduser temp,2
+2025-07-26 08:53:00,user08,user_mgmt_portal,user_remove,1,sudo reboot,3
+2025-07-21 19:43:00,user01,vpn_gateway,user_remove,1,mysql restart,5
+2025-07-21 04:41:00,user10,user_mgmt_portal,login,1,chmod 777,2
+2025-07-26 09:33:00,user08,firewall_console,login,0,mysql restart,5
+2025-07-25 07:04:00,user07,user_mgmt_portal,login,1,iptables -F,4
+2025-07-27 10:40:00,user08,db_admin_panel,file_upload,0,rm -rf /tmp/*,2
+2025-07-21 10:36:00,user08,firewall_console,user_remove,0,adduser temp,3
+2025-07-26 00:26:00,user06,firewall_console,user_remove,0,mysql restart,5
+2025-07-24 16:40:00,user05,firewall_console,login,1,chmod 777,2
+2025-07-26 17:54:00,user01,vpn_gateway,login,0,cat /etc/passwd,5
+2025-07-25 01:40:00,user10,user_mgmt_portal,file_upload,0,mysql restart,1
+2025-07-27 11:49:00,user05,db_admin_panel,config_change,0,chmod 777,2
+2025-07-22 22:46:00,user06,firewall_console,user_remove,0,chmod 777,5
+2025-07-24 00:34:00,user01,vpn_gateway,login,1,rm -rf /tmp/*,2
+2025-07-22 04:53:00,user01,user_mgmt_portal,logout,0,cat /etc/passwd,2
+2025-07-25 03:13:00,user01,db_admin_panel,file_upload,1,sudo reboot,2
+2025-07-21 10:17:00,user08,vpn_gateway,user_add,1,adduser temp,5
+2025-07-23 12:26:00,user10,db_admin_panel,user_add,1,iptables -F,2
+2025-07-24 16:01:00,user07,firewall_console,logout,1,rm -rf /tmp/*,4
+2025-07-23 23:06:00,user10,db_admin_panel,file_delete,0,iptables -F,2
+2025-07-25 06:43:00,user02,firewall_console,file_upload,0,adduser temp,5
+2025-07-23 06:16:00,user01,firewall_console,file_delete,0,chmod 777,1
+2025-07-25 17:57:00,user09,user_mgmt_portal,user_remove,1,chmod 777,4
+2025-07-27 05:40:00,user04,user_mgmt_portal,user_add,1,mysql restart,1
+2025-07-27 05:57:00,user08,db_admin_panel,logout,1,adduser temp,4
+2025-07-22 01:27:00,user08,db_admin_panel,user_remove,0,chmod 777,2
+2025-07-21 19:07:00,user08,user_mgmt_portal,login,0,cat /etc/passwd,4
+2025-07-21 20:12:00,user08,user_mgmt_portal,file_delete,1,sudo reboot,5
+2025-07-26 12:06:00,user02,firewall_console,login,0,cat /etc/passwd,1
+2025-07-24 15:13:00,user09,firewall_console,file_upload,1,sudo reboot,4
+2025-07-24 15:32:00,user03,vpn_gateway,login,1,cat /etc/passwd,5
+2025-07-21 21:57:00,user02,vpn_gateway,logout,0,mysql restart,1
+2025-07-23 17:19:00,user10,vpn_gateway,user_add,1,sudo reboot,4
+2025-07-22 12:24:00,user06,vpn_gateway,logout,1,iptables -F,1
+2025-07-21 06:59:00,user05,vpn_gateway,file_delete,1,cat /etc/passwd,5
+2025-07-26 10:22:00,user01,firewall_console,user_remove,1,sudo reboot,4
+2025-07-23 04:28:00,user02,vpn_gateway,user_add,1,adduser temp,4
+2025-07-23 10:22:00,user06,vpn_gateway,logout,0,sudo reboot,4
+2025-07-26 22:49:00,user08,user_mgmt_portal,config_change,0,adduser temp,4
+2025-07-25 01:50:00,user05,db_admin_panel,user_add,1,mysql restart,3
+2025-07-24 18:33:00,user04,db_admin_panel,file_upload,1,adduser temp,4
+2025-07-27 07:30:00,user08,user_mgmt_portal,login,1,rm -rf /tmp/*,1
+2025-07-26 22:34:00,user08,vpn_gateway,file_delete,0,adduser temp,1
+2025-07-24 02:31:00,user05,firewall_console,user_remove,0,rm -rf /tmp/*,4
+2025-07-27 17:29:00,user02,vpn_gateway,logout,1,chmod 777,4
+2025-07-23 11:50:00,user06,db_admin_panel,user_add,0,mysql restart,4
+2025-07-21 14:31:00,user06,user_mgmt_portal,logout,1,rm -rf /tmp/*,5
+2025-07-22 01:33:00,user04,firewall_console,user_add,0,iptables -F,5
+2025-07-24 18:14:00,user01,vpn_gateway,file_upload,1,sudo reboot,4
+2025-07-25 07:38:00,user07,db_admin_panel,logout,1,mysql restart,2
+2025-07-25 08:49:00,user06,user_mgmt_portal,login,0,adduser temp,3
+2025-07-27 21:30:00,user10,user_mgmt_portal,config_change,0,rm -rf /tmp/*,4
+2025-07-27 07:31:00,user08,firewall_console,logout,1,iptables -F,4
+2025-07-23 11:46:00,user07,vpn_gateway,file_delete,1,mysql restart,4
+2025-07-24 01:14:00,user10,db_admin_panel,file_upload,0,cat /etc/passwd,2
+2025-07-23 16:47:00,user04,firewall_console,config_change,0,iptables -F,1
+2025-07-22 00:20:00,user04,vpn_gateway,config_change,0,sudo reboot,3
+2025-07-22 04:51:00,user05,firewall_console,file_upload,1,chmod 777,4
+2025-07-21 11:58:00,user09,firewall_console,user_add,1,rm -rf /tmp/*,2
+2025-07-25 11:00:00,user01,user_mgmt_portal,login,0,cat /etc/passwd,5
+2025-07-26 21:06:00,user03,user_mgmt_portal,logout,0,sudo reboot,5
+2025-07-27 06:55:00,user03,firewall_console,config_change,0,chmod 777,2
+2025-07-25 06:26:00,user05,db_admin_panel,config_change,1,adduser temp,4
+2025-07-23 19:32:00,user05,user_mgmt_portal,user_add,0,chmod 777,1
+2025-07-27 03:35:00,user10,db_admin_panel,user_add,1,chmod 777,2
+2025-07-24 05:21:00,user08,vpn_gateway,user_remove,1,chmod 777,5
+2025-07-25 01:25:00,user08,firewall_console,user_add,1,chmod 777,2
+2025-07-27 09:54:00,user06,user_mgmt_portal,login,1,adduser temp,3
+2025-07-22 09:28:00,user03,firewall_console,logout,0,sudo reboot,4
+2025-07-26 10:22:00,user08,db_admin_panel,file_delete,1,chmod 777,5
+2025-07-24 22:38:00,user05,db_admin_panel,file_delete,1,chmod 777,1
+2025-07-27 17:33:00,user01,user_mgmt_portal,logout,0,adduser temp,4
+2025-07-26 04:28:00,user10,db_admin_panel,login,1,rm -rf /tmp/*,1
+2025-07-22 02:33:00,user05,db_admin_panel,user_add,1,chmod 777,1
+2025-07-24 07:42:00,user06,user_mgmt_portal,file_upload,1,cat /etc/passwd,1
+2025-07-21 00:50:00,user01,db_admin_panel,logout,0,adduser temp,5
+2025-07-21 01:13:00,user09,firewall_console,file_delete,0,iptables -F,3
+2025-07-23 05:13:00,user06,user_mgmt_portal,file_delete,0,iptables -F,2
+2025-07-25 18:12:00,user10,db_admin_panel,file_delete,1,mysql restart,5
+2025-07-26 21:22:00,user04,user_mgmt_portal,user_add,0,mysql restart,4
+2025-07-23 22:48:00,user01,firewall_console,config_change,0,mysql restart,2
+2025-07-24 01:56:00,user01,firewall_console,file_upload,0,chmod 777,2
+2025-07-23 21:48:00,user03,user_mgmt_portal,file_upload,1,rm -rf /tmp/*,3
+2025-07-24 02:29:00,user07,vpn_gateway,file_delete,0,adduser temp,2
+2025-07-21 18:10:00,user05,vpn_gateway,logout,0,iptables -F,5
+2025-07-23 21:25:00,user04,db_admin_panel,logout,0,adduser temp,1
+2025-07-26 13:02:00,user09,db_admin_panel,file_delete,1,cat /etc/passwd,4
+2025-07-25 08:39:00,user04,vpn_gateway,config_change,0,iptables -F,5
+2025-07-25 19:53:00,user09,user_mgmt_portal,user_remove,1,cat /etc/passwd,4
+2025-07-23 14:47:00,user02,user_mgmt_portal,file_delete,1,adduser temp,5
+2025-07-21 15:52:00,user01,vpn_gateway,config_change,1,adduser temp,4
+2025-07-26 08:19:00,user03,user_mgmt_portal,login,1,rm -rf /tmp/*,4
+2025-07-23 10:42:00,user05,firewall_console,user_remove,1,rm -rf /tmp/*,1
+2025-07-23 03:18:00,user10,db_admin_panel,login,0,rm -rf /tmp/*,1
+2025-07-25 16:24:00,user02,firewall_console,logout,0,mysql restart,2
+2025-07-23 02:33:00,user03,db_admin_panel,logout,0,rm -rf /tmp/*,3
+2025-07-27 15:32:00,user08,vpn_gateway,config_change,1,adduser temp,1
+2025-07-21 14:06:00,user07,db_admin_panel,config_change,1,cat /etc/passwd,1
+2025-07-26 02:18:00,user04,firewall_console,login,0,iptables -F,2
+2025-07-25 12:20:00,user02,user_mgmt_portal,logout,0,rm -rf /tmp/*,2
+2025-07-22 20:38:00,user05,user_mgmt_portal,login,1,cat /etc/passwd,2
+2025-07-23 05:35:00,user08,db_admin_panel,user_remove,1,mysql restart,4
+2025-07-27 05:27:00,user10,vpn_gateway,config_change,1,adduser temp,5
+2025-07-23 04:38:00,user06,firewall_console,config_change,0,iptables -F,5
+2025-07-22 01:53:00,user07,user_mgmt_portal,file_delete,0,sudo reboot,5
+2025-07-22 06:54:00,user09,firewall_console,config_change,0,rm -rf /tmp/*,2
+2025-07-22 15:10:00,user02,firewall_console,user_remove,0,adduser temp,1
+2025-07-26 13:59:00,user04,vpn_gateway,user_remove,1,cat /etc/passwd,2
+2025-07-24 21:37:00,user10,firewall_console,logout,0,mysql restart,4
+2025-07-21 05:58:00,user03,db_admin_panel,logout,1,cat /etc/passwd,3
